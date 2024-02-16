@@ -1,0 +1,21 @@
+1) Explain briefly the steps involved in initiating a project in Truffle
+and demonstrate the same?
+
+Ans)The first step to initiate a project in Truffle are
+  Step 01: Creating a new directory for Truffle Project
+     mkdir MetaCoin (make directory of MetaCoin)
+     cd MetaCion (Current Working Directory MetaCoin)
+ Step 02: Download "unbox" the MetaCoin box using command as
+                      "truffle unbox metacoin"
+Step 03: After unboxing use the command in terminal as 
+                     "truffle init"
+Step 04: Once the operation of downloading the truffle project metacoin is completed, we will see the
+            project structure as
+
+        ->MetaCion /
+           ->contracts/--> directory for solidity contracts
+           ->migrations/--> directory for scriptable deployment files.
+           ->test/--> these are test files for testing
+           ->truffle.js/--> truffle configuration file.
+
+ 

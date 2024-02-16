@@ -1,0 +1,13 @@
+2) How to Write and Compile a Solidity Smart Contract file using
+Truffle?
+Ans)The first step to write solidity smart contract is to open the folder which we have created as MetaCoin it structure as follows:-
+
+->MetaCion /
+           ->contracts/--> directory for solidity contracts
+           ->migrations/--> directory for scriptable deployment files.
+           ->test/--> these are test files for testing
+           ->truffle.js/--> truffle configuration file.
+* Second step is to open the contracts folder and write the Solidity smart contacts
+* for compiling the smart contact there are different ways such as
+   for compiling we command in terminal as "truffle compile"
+   for migrating we use "truffle migrate"

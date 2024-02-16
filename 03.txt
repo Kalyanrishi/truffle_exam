@@ -1,0 +1,16 @@
+3) Demonstrate the process of deploying smart contracts on
+Ganache using Truffle suite. 
+Ans) The following process are the deploying the smart contact on Ganache
+Step 01) Download and install ganache from browser.
+Step 02) Open truffle-config.js in a text editor
+           ->MetaCion /
+           ->contracts/--> directory for solidity contracts
+           ->migrations/--> directory for scriptable deployment files.
+           ->test/--> these are test files for testing
+           ->truffle.js/--> truffle configuration file.
+
+step 03) This will allow a connection using Ganache default connection parameters
+step 04) After replacing the content with code save and close the file.
+step 05) Now its time to launch the Ganache.
+step 06) After launching the Ganache go to the terminal and migrate the contract to the Blockchain created by Ganache.
+    Use command as "truffle migrate"
